@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Layout and positioning</title>
+  </head>
+  <body>
+    <!-- positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <div class="absolute bottom-0 right-0 bg-yellow-300">absolute child</div>
+    </div>
+
+    <!-- top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute left-0 top-5 bg-slate-400">top left corner</div>
+    </div>
+    <!-- top right corner -->
+    <div class="relative h-32 w-32 bg-orange-400">
+      <div class="absolute right-0 top-5 bg-slate-400">top left corner</div>
+    </div>
+    <!-- bottom right corner -->
+    <div class="relative h-32 w-32 bg-blue-400">
+      <div class="absolute right-0 bottom-0 bg-slate-400">top left corner</div>
+    </div>
+    <!-- bottom left corner -->
+    <div class="relative h-32 w-32 bg-green-400">
+      <div class="absolute left-0 bottom-0 bg-slate-400">top left corner</div>
+    </div>
+    <br />
+    <!-- span bootom edge -->
+    <div class="relative h-32 w-32 bg-blue-300">
+      <div class="absolute inset-y-0 right-0 h-16 bg-yellow-200">Yolla</div>
+    </div>
+
+    <!-- z-index -->
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->
