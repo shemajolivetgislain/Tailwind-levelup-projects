@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Container & Spacing</title>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <article class="bg-slate-300">
+      <h3>Article One</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem laboriosam libero molestiae recusandae accusantium
+          voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
+          sunt, maiores quasi. Modi amet quos dolores!
+        </p>
+      </article>
+
+      <!-- Margin -->
+      <div class="m-4 bg-slate-100"> margin top left right and bottom </div>
+      <div class="mx-4 bg-slate-100"> margin left right </div>
+      <div class="my-4 bg-slate-100"> margin top bottom </div>
+      <div class="ml-4 bg-slate-100"> margin left </div>
+      <div class="mr-4 bg-slate-100"> margin right</div>
+      <div class="mt-4 bg-slate-100"> margin bottom</div>
+
+
+      <!-- Arbitrary Spacing -->
+      <div class="ml-[200px] bg-slate-700">ml-[200px]</div>
+
+      <!-- Padding -->
+      <div class="p-4 bg-green-100"> margin top left right and bottom </div>
+      <div class="py-4 bg-green-100"> margin top  and bottom </div>
+      <div class="px-4 bg-green-100"> margin left  and right </div>
+      <div class="pl-4 bg-blue-100"> margin left</div>
+      <div class="pr-4 bg-slate-100"> margin left</div>
+      <!-- Space Between X -->
+      <div class="flex space-x-20">
+        <div class="px-4 bg-green-100"> margin left  and right </div>
+        <div class="pl-4 bg-blue-100"> margin left</div>
+        <div class="pr-4 bg-slate-100"> margin left</div>
+        <div class="pl-4 bg-blue-100"> margin left</div>
+        <div class="pr-4 bg-slate-100"> margin left</div>
+        <div class="pl-4 bg-blue-100"> margin left</div>
+        <div class="pr-4 bg-slate-100"> margin left</div>
+      </div>
+
+
+      <!-- Space Between Y -->
+      <div class="flex flex-col space-x-20">
+        <div class="px-4 bg-green-100"> margin left  and right </div>
+        <div class="pl-4 bg-blue-100"> margin left</div>
+        <div class="pr-4 bg-slate-100"> margin left</div>
+        <div class="pl-4 bg-blue-100"> margin left</div>
+        <div class="pr-4 bg-slate-100"> margin left</div>
+        <div class="pl-4 bg-blue-100"> margin left</div>
+        <div class="pr-4 bg-slate-100"> margin left</div>
+      </div>
+
+  </body>
+</html>
