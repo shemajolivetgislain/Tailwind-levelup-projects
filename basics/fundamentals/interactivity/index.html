@@ -7,8 +7,62 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- hover state styling -->
+    <button
+      class="bg-black text-white py-3 px-10 rounded-lg m-4 hover:bg-orange-700 hover:text-white"
+    >
+      Onclick
+    </button>
+
+    <!-- styling based on parent state -->
     <div
-      class=".max-w-xs p-6.shadow-xl bg-gray-100 hover:bg-green-200 hover:text-white-800"
-    ></div>
+      class="max-w-xs mx-auto rounded-lg space-y-3 shadow-xl bg-gray-100 hover:bg-green-200 hover:text-white"
+    >
+      <h3 class="group-hover:text-white">Card 1</h3>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+        veritatis rerum ex temporibus aliquid molestias exercitationem magni
+        dicta facere suscipit est, eos consectetur tenetur eius architecto vitae
+        impedit. Similique, non.
+      </p>
+    </div>
+    <!-- pseudo class -->
+    <div>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 1
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 2
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 3
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 4
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 5
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 6
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 7
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 8
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 9
+      </li>
+      <li class="first:bg-yellow-200 even:bg-blue-300 odd:bg-green-300">
+        item 10
+      </li>
+    </div>
+    <!-- appearance managing how your styling will be looking like in different browsers -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
   </body>
 </html>
